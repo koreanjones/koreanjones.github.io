@@ -226,14 +226,13 @@ footer.second {
 	}
 	.slider1 img {
 	border-radius: 5px;
-	border: 25px solid white;
-	max-width: 100%
+	max-width: 100%;
 	}
 	article img {
 	max-width: 100%;
 	}
 	.one-third img {
-	max-width: 100%
+	max-width: 100%;
 	}
 	#menu-icon {
 		display: inline-block;
@@ -299,7 +298,6 @@ footer.second {
 @media screen and (max-width: 478px) {
 	.slider1 img {
 	border-radius: 5px;
-	border: 25px solid white;
 	max-width: 100%
 	}
 	article img {
