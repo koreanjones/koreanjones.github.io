@@ -28,14 +28,14 @@ h5 {
 	color: #e84a5f;
 }
 .slider1 img {
-	border-radius: 5px;
-	max-width: 50%;
+	border-radius: 10px;
+	max-width: 50%
 }
 article img {
 	max-width: 100%;
 }
 .one-third img {
-	max-width: 100%;
+	max-width: 100%;	
 }
 header {
 	position: fixed;
@@ -114,7 +114,12 @@ a:hover .current{
 	width: 29%;
 	float: left;
 	margin: 2%;
+
 	
+}
+.one-third a{
+	color: #2a363b;
+	text-decoration: none;
 }
 .circle {
 	margin: 0 auto;
@@ -145,7 +150,7 @@ article {
 	padding: 4%;
 }
 .circle-image {
-	border-radius: 25%;
+	border-radius: 5px;
 }
 aside {
 	float: right;
@@ -211,7 +216,7 @@ footer.second {
 	border-top: 1px solid #E84a5f;
 	background-color: #2a363b;
 	max-height: 50px;
-	padding-bottom: 1%;
+	padding-bottom: 3%;
 	opacity: 0.95;
 }
 
@@ -226,13 +231,13 @@ footer.second {
 	}
 	.slider1 img {
 	border-radius: 5px;
-	max-width: 100%;
+	max-width: 100%
 	}
 	article img {
 	max-width: 100%;
 	}
 	.one-third img {
-	max-width: 100%;
+	max-width: 100%
 	}
 	#menu-icon {
 		display: inline-block;
