@@ -60,7 +60,7 @@ nav {
 	padding: 35px 20px 0px 0px;
 }
 #menu-icon{
-	background: url(/img/icon.png) center;
+	background: url(img/icon.png) center;
 	width: 40px;
 	height: 34px;
 	display: hidden;
