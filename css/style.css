@@ -44,7 +44,7 @@ header {
 	margin: 0 auto;
 }
 #logo {
-	/*background: url("img/justinlogoDesign1.png") no-repeat;*/
+	/*background: url("/img/justinlogoDesign1.png") no-repeat;*/
 	background-size: 70px 60px;
 	text-decoration: none;
 	float: left;
@@ -60,7 +60,7 @@ nav {
 	padding: 35px 20px 0px 0px;
 }
 #menu-icon{
-	background: url(img/icon.png) center;
+	background: url(/img/icon.png) center;
 	width: 40px;
 	height: 34px;
 	display: hidden;
