@@ -1,0 +1,214 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio template</title>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="style.css" />	
+	<link href="css/font-awesome.min.css" rel="stylesheet"/>
+	<script rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"></script>
+  	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="css/animate.css">
+  	<link rel="stylesheet" type="text/css" href="css/waypoints.css">
+  	<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+  	<script type="text/javascript" src="js/waypoints.js"></script>
+</head>
+<body>
+	<header> 
+		<div id="header-inner">
+			<a href="index.html" id="logo"></a>
+			<nav>
+				<a href="#" id="menu-icon"></a>
+				<ul>
+					<li><a href="index.html" class="current">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+<!--- Start Slider -->
+		<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
+
+		<div class="slide-wrap">
+			<section class="slider">
+				<ul class="slider1">
+					<li>
+						<img src="https://c1.staticflickr.com/4/3946/15680403442_d24f2ec82d.jpg" alt="Beach Day">
+					</li>
+					<li>
+						<img src="https://c1.staticflickr.com/4/3938/15500615249_670e9bc20d_k.jpg"   alt="Old School at Friendship Bell">
+					<li>
+						<img src="https://c1.staticflickr.com/8/7538/15485797178_8bb3e01262_b.jpg"  alt="Alcatraz">
+					</li>
+					<li>
+						<img src="https://c1.staticflickr.com/8/7485/15671070175_592f2108f5_b.jpg"  alt="San Pedro Sunset">
+					</li>	
+				</ul>
+			</section>
+			
+		</div>
+
+		<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+			});
+		</script>
+<!--- End Slider -->
+
+<div class="clearfix"></div>
+
+<div id="inner-wrapper">
+
+<!--   Start Waypoints Delayed Animations -->
+
+<section class="staggered-animation-container">
+
+<section class="os-animation" data-os-animation="fadeInLeftBig" data-os-animation-delay="1.0s">
+
+
+	<section class="one-third">
+		<div class="circle">
+			<td><i class="fa fa-user"></i></td>
+		</div>
+		<h3>About me</h3>
+		<p>Military Veteran whos been in the IT industry for over 10 years, combined with the love for art and design have insipred me to become a Developer.</p>
+	</section>
+
+</section> <!-- Animation End -->
+<section class="os-animation" data-os-animation="fadeInUpBig" data-os-animation-delay="1.0s">
+
+	<section class="one-third">
+		<div class="circle">
+			<td><i class="fa fa-car"></i></td>
+		</div>
+		<h3>Blog</h3>
+		<p>Technology, cars, and all the other cool things we wish we had!!!!  Some we do!</p>
+	</section>
+
+</section> <!-- Animation End -->
+<section class="os-animation" data-os-animation="fadeInRightBig" data-os-animation-delay="1.0s">
+
+
+	<section class="one-third">
+		<div class="circle">
+			<td><i class="fa fa-camera-retro"></i></td>
+		</div>
+		<h3>Gallery</h3>
+		<p>Pictures tell stories that sometimes are left for one to create from ones own imagination.</p>
+	</section>
+
+</section> <!-- Animation End -->
+<div class="clearfix"></div>
+<section class="os-animation" data-os-animation="fadeInLeftBig" data-os-animation-delay=".6s">
+	<article>
+		<img class="circle-image" src="https://c1.staticflickr.com/8/7516/15474107328_26a2ea0e8a.jpg" alt="Dinner">
+	</article>
+</section>
+<section class="os-animation" data-os-animation="fadeInRightBig" data-os-animation-delay=".6s">
+
+	<aside>
+		<h3>Projects</h3>
+		<br>
+		<ul>
+			<li><h4>Challenge Build</h4></li>
+			<li><h4>Color Game</h4></li>
+			<li><h4>Patatap Clone</h4></li>
+			<li><h4>YelpCamp</h4></li>
+		</ul>
+	</aside>
+</section>
+<div class="clearfix"></div>
+
+<section class="os-animation" data-os-animation="bounceInUp" data-os-animation-delay=".6s">
+
+	<section class="one-third">
+		<h3>extra</h3>
+		<img src="https://c1.staticflickr.com/6/5610/15665041832_a3b5a94e7d.jpg" alt="Oysters">
+		<p>blah blah blah</p>
+	</section>
+	<section class="one-third">
+		<h3>extra</h3>
+		<img src="https://c1.staticflickr.com/6/5610/15665041832_a3b5a94e7d.jpg" alt="Oysters">
+		<p>blah blah blah</p>
+	</section>
+	<section class="one-third">
+		<h3>extra</h3>
+		<img src="https://c1.staticflickr.com/6/5610/15665041832_a3b5a94e7d.jpg"  alt="Oysters">
+		<p>blah blah blah</p>
+	</section>
+</section> <!-- Animation End-->
+
+</div>  		<!-- END Inner Wrapper -->
+
+<div class="clearfix"></div>
+
+				<!-- Footer Starter -->
+
+<section class="os-animation" data-os-animation="zoomInDown" data-os-animation-delay=".6s">
+
+	<footer>
+		<div id="footer-inner">
+			<section class="one-third" id="footer-third">
+				<h3>Contact</h3>
+				<p class="footercontact">Justin Jones<br>
+				<br><br>
+				San Pedro, Ca<br></p>
+			</section>
+			<section class="one-third" id="footer-third">
+				<h3>Social</h3>
+				<br>
+					<ul class="social">
+						<li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://www.google.com" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+
+					</ul>
+			</section>
+			<section class="one-third" id="footer-third-last">
+				<h3>pages</h3>
+				<br>
+				<h5>
+					<a href="index.html">Home</a>
+					<a href="#">about</a>
+					<a href="#">about</a>
+					<a href="#">about</a>
+				</h5>
+			</section>
+		</div>
+
+	</footer>
+	<footer class="second">
+		<p>&copy;2017 Photos and Web Design: Justin Jones</p>
+	</footer>
+	</section>
+<!--   Waypoints Animation End -->
+	</section>
+
+</body>
+</html>
