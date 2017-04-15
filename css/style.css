@@ -30,13 +30,13 @@ h5 {
 .slider1 img {
 	border-radius: 5px;
 	border: 25px solid white;
-	max-width: 50%
+	max-width: 50%;
 }
 article img {
 	max-width: 100%;
 }
 .one-third img {
-	max-width: 100%
+	max-width: 100%;
 }
 header {
 	position: fixed;
