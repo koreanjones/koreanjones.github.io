@@ -29,7 +29,7 @@ h5 {
 }
 .slider1 img {
 	border-radius: 10px;
-	max-width: 50%
+	max-width: 50%;
 }
 article img {
 	max-width: 100%;
@@ -231,13 +231,13 @@ footer.second {
 	}
 	.slider1 img {
 	border-radius: 5px;
-	max-width: 100%
+	max-width: 100%;
 	}
 	article img {
 	max-width: 100%;
 	}
 	.one-third img {
-	max-width: 100%
+	max-width: 100%;
 	}
 	#menu-icon {
 		display: inline-block;
@@ -303,13 +303,13 @@ footer.second {
 @media screen and (max-width: 478px) {
 	.slider1 img {
 	border-radius: 5px;
-	max-width: 100%
+	max-width: 100%;
 	}
 	article img {
 	max-width: 100%;
 	}
 	.one-third img {
-	max-width: 100%
+	max-width: 100%;
 	}
 	h3 {
 		font-size: 150%;
