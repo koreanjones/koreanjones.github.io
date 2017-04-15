@@ -27,8 +27,16 @@ h5 {
 	font-size: 120%;
 	color: #e84a5f;
 }
-img {
+.slider1 img {
+	border-radius: 5px;
+	border: 25px solid white;
+	max-width: 50%
+}
+article img {
 	max-width: 100%;
+}
+.one-third img {
+	max-width: 100%
 }
 header {
 	position: fixed;
@@ -44,7 +52,7 @@ header {
 	margin: 0 auto;
 }
 #logo {
-	/*background: url("/img/justinlogoDesign1.png") no-repeat;*/
+	/*background: url("img/justinlogoDesign1.png") no-repeat;*/
 	background-size: 70px 60px;
 	text-decoration: none;
 	float: left;
