@@ -22,7 +22,7 @@
 
 .bx-wrapper .bx-viewport {
 	left: 0px;
-	background:  #FFF5C3;
+	background:  #F5FAFA;
 	
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
