@@ -13,7 +13,7 @@
 
 .bx-wrapper img {
 	margin: 0 auto;
-	min-width: 100%;
+	min-width: 200%;
 	display: block;
 }
 
@@ -110,7 +110,7 @@
 
 .bx-wrapper .bx-controls-direction a {
 	position: relative;
-	top: 100%;
+	top: 50%;
 	margin-top: -16px;
 	outline: 0;
 	width: 32px;
