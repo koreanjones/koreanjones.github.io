@@ -8,6 +8,8 @@
 	<link href="css/jquery.bxslider.css" rel="stylesheet" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />	
 	<link href="css/font-awesome.min.css" rel="stylesheet"/>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<script rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"></script>
   	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
   	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
@@ -18,19 +20,46 @@
 	<script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
-	<header> 
-		<div id="header-inner">
-			<a href="index.html" id="logo"></a>
-			<nav>
-				<a href="#" id="menu-icon"></a>
-				<ul>
-					<li><a href="index.html" class="current">Home</a></li>
-					<li><a href="#two" id="about">About</a></li>
-					<li><a href="#three">Contact</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
+	<header>
+	
+  
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+</nav>
+</header>
+	<header>
+	<nav class="navbar navbar-inverse">
+  <!-- <div class="container-fluid"> -->
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">JUSTIN JONES WEB DEV</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#two">ABOUT ME</a></li>
+        <li><a href="#three">PROJECTS</a></li>
+        <li><a href="#four">CONTACT</a></li>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+ <!--  </div> --><!-- /.container-fluid -->
+</nav>
+</header>
 
 <!--- Start Slider -->
 		<script src="js/jquery.bxslider.min.js"></script>
@@ -45,6 +74,7 @@
 					</li>
 					<li>
 						<img src="https://c1.staticflickr.com/4/3938/15500615249_670e9bc20d_k.jpg"   alt="Old School at Friendship Bell">
+					</li>
 					<li>
 						<img src="https://c1.staticflickr.com/8/7538/15485797178_8bb3e01262_b.jpg"  alt="Alcatraz">
 					</li>
@@ -83,7 +113,7 @@
 <!--- End Slider -->
 
 <div class="clearfix" id="two"></div>
-
+<div class="container">
 <div id="inner-wrapper">
 
 <!--   Start Waypoints Delayed Animations -->
@@ -129,7 +159,7 @@
 	</section>
 
 </section> <!-- Animation End -->
-<div class="clearfix"></div>
+<div class="clearfix"  id="three"></div>
 <section class="os-animation" data-os-animation="fadeInLeftBig" data-os-animation-delay="0s">
 	<article>
 		<img src="https://c1.staticflickr.com/4/3946/15680403442_d24f2ec82d.jpg" alt="Beach Day">
@@ -153,19 +183,19 @@
 <section class="os-animation" data-os-animation="bounceInUp" data-os-animation-delay="0s">
 	<h2>Project Screenshots</h2>
 
-	<section class="one-third" id="three">
+	<section class="one-third">
 		<h3>Patatap</h3>
-		<img src="https://raw.githubusercontent.com/koreanjones/koreanjones.github.io/master/img/patatapscreenshot.PNG">
+		<a href="https://koreanjones.github.io/apptest/"><img src="https://raw.githubusercontent.com/koreanjones/koreanjones.github.io/master/img/patatapscreenshot.PNG"></a>
 		<p></p>
 	</section>
 	<section class="one-third">
 		<h3>Color Game</h3>
-		<img src="https://raw.githubusercontent.com/koreanjones/koreanjones.github.io/master/img/colorgamescreenshot.PNG">
+		<a href="https://koreanjones.github.io/color-game/"><img src="https://raw.githubusercontent.com/koreanjones/koreanjones.github.io/master/img/colorgamescreenshot.PNG"></a>
 		<p></p>
 	</section>
 	<section class="one-third">
 		<h3>TestApp</h3>
-		<img src="https://raw.githubusercontent.com/koreanjones/koreanjones.github.io/master/img/testappscreenshot.PNG">
+		<a href="https://koreanjones.github.io/Patatap-clone/"><img src="https://raw.githubusercontent.com/koreanjones/koreanjones.github.io/master/img/testappscreenshot.PNG"></a>
 		<p></p>
 	</section>
 </section> <!-- Animation End-->
@@ -178,7 +208,7 @@
 
 <section class="os-animation" data-os-animation="zoomInDown" data-os-animation-delay="0s">
 
-	<footer >
+	<footer  id="four">
 		<div id="footer-inner">
 			<section class="one-third" id="footer-third">
 				<h3>Contact</h3>
@@ -198,14 +228,15 @@
 					</ul>
 			</section>
 			<section class="one-third" id="footer-third-last">
-				<h5>
-					<a href="index.html">Home</a>
-					<a href="#two">about</a>
-				</h5>
+				<h3>PAGES</h3>
+				<a href="index.html">Home -</a>
+				<a href="#two">about -</a>
+				<a href="#three"> PROJECTS</a>
 			</section>
 		</div>
 
 	</footer>
+	</div>
 	<footer class="second">
 		<p>&copy;2017 Photos and Web Design: Justin Jones</p>
 	</footer>
@@ -213,5 +244,6 @@
 <!--   Waypoints Animation End -->
 	</section>
 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
