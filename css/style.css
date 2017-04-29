@@ -18,6 +18,12 @@ body {
 nav #bottom-nav {
 	display: hidden;
 }
+.nav {
+	padding: 0;
+}
+.contact {
+	padding: 10px 0 10px 10px;
+}
 h3 {
 	font-size: 190%;
 	padding: 5% 0;
@@ -52,6 +58,7 @@ header {
 	font-size: 1.2em;
 	padding: 0;
 }
+
 aside ul li a{
 	text-decoration: none;
 	color: grey;
@@ -367,6 +374,6 @@ footer.second {
 		margin: 2%;
 	}
 	h4 {
-		font-size: 114%;
+		font-size: 115%;
 	}
 }
