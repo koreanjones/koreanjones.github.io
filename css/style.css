@@ -13,6 +13,10 @@ body {
 	line-height: 190%;
 	text-align: center;
 	text-transform: uppercase;
+	top: 0;
+}
+nav #bottom-nav {
+	display: hidden;
 }
 h3 {
 	font-size: 190%;
@@ -36,14 +40,25 @@ article img {
 	max-width: 100%;	
 }
 header {
-	position: fixed;
-	background-color: #2a363b;
-	height: 86px;
+
 	z-index: 1000;
+	position: fixed;
 	width: 100%;
 	opacity: 0.9;
+	top: 0;
 }
-	
+.navbar{
+	width: 100%;
+	padding: 0 12% 0 12%;
+}
+aside ul li a{
+	text-decoration: none;
+	color: grey;
+}
+aside ul li a:hover{
+	text-decoration: none;
+	color: red;
+	}	
 #header-inner {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -55,7 +70,7 @@ header {
 	float: left;
 	width: 200px;
 	height: 60px;
-	margin: 20px;
+	margin: 35px 0 0 0;
 }
 
 /*-------------Nav Start---------------*/
@@ -72,6 +87,7 @@ nav {
 	
 }
 ul {
+
 	list-style: none;
 
 }
@@ -90,6 +106,9 @@ nav ul li a {
 }
 a:hover .current{
 	text-decoration: underline;
+}
+.navbar-header a {
+	margin-top: 10px;
 }
 
 /* -----------------Slider Start----------------*/
@@ -160,7 +179,10 @@ aside h3 {
 .one-third img {
 	padding-bottom: 2%;
 }
-
+#footer-third-last {
+	text-decoration: none;
+	color: white;
+}
 /*-------------- Start Footer----------------*/
 footer {
 	background-color: #99b898;
@@ -223,8 +245,15 @@ footer.second {
 /*  --------------Media Queries---------*/
 
 @media screen and (max-width: 768px){
+	.navbar{
+		width: 100%;
+		padding: 0;
+	}
 	header {
 		position: fixed;
+	}
+	.navbar-header a {
+		margin-top: 0px;
 	}
 	.slider1 img {
 	border-radius: 5px;
@@ -242,7 +271,7 @@ footer.second {
 	nav:hover ul {
 		display: block;
 	}
-	nav ul, nav:active ul {
+	/*nav ul, nav:active ul {
 		display: none;
 		z-index: 1000;
 		position: absolute;
@@ -253,7 +282,7 @@ footer.second {
 		top: 60px;
 		border: 1px solid #E84a5f;
 		border-radius: 4px 0 4px 4px;
-	}
+	}*/
 	nav li {
 		text-align: center;
 		width: 100%;
@@ -298,10 +327,18 @@ footer.second {
 
 }
 @media screen and (max-width: 478px) {
-	header {
-		height: 50px;
-		position:  fixed;
-		bottom: 0;
+	.navbar-header a {
+		margin-top: 0px;
+	}
+	.navbar{
+		width: 100%;
+		padding: 0;
+	}
+	nav #bottom-nav {
+		display: ;
+	}
+	.project {
+		text-decoration: none;
 	}
 	#logo {
 		display: none;
@@ -310,8 +347,7 @@ footer.second {
 		padding: 10px 10px;
 	}
 	#menu-icon {
-		display: block;
-		
+		display: block;	
 	}
 	nav ul, nav:active ul {
 		top: -160px;
